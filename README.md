@@ -1,9 +1,9 @@
 # feynman72.github.io
 <!DOCTYPE html>
 <html>
-  <head>
-    Feynman´s KB
-  </head>
+<head>
+  <title>tFeynman´s KB</title>
+</head>
 <body>
   
   <h1>Prueba de encabezado</h1>
