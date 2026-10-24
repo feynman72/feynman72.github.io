@@ -1,4 +1,13 @@
 # feynman72.github.io
-<head>
-  <title>Feynman´s KB</title>
-</head>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Feynman´s KB</title>
+  </head>
+<body>
+  
+  <h1>Prueba de encabezado</h1>
+  <p>Párrafo de comienzo</p>
+
+</body>
+</html>
