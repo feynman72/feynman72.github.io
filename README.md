@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Feynman´s KB</title>
+    Feynman´s KB
   </head>
 <body>
   
