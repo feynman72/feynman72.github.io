@@ -1,5 +1,4 @@
-# feynman72.github.io
-<!DOCTYPE html>
+#feynman72.github.io
 <html>
 <head>
   Feynman´s KB
