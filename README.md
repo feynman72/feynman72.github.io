@@ -1,8 +1,5 @@
-# feynman72.github.io
+# feynman72 KBs
 <html>
-<head>
-  Feynman´s KB
-</head>
 <body>
   
   <h1>Prueba de encabezado</h1>
