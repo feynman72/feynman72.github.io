@@ -1,3 +1,46 @@
-theme: jekyll-theme-minimal
-title: feyman72 KB´s
-description: En proceso de registro
+# ============================================
+#  CONFIGURACIÓN DEL SITIO
+#  Editar solo lo que está entre comillas.
+# ============================================
+
+title: "feynman72 KBs"
+tagline: ""
+description: "Base de mi poco conocimiento: notas por tema, laboratorios y glosario."
+lang: es
+
+url: "https://feynman72.github.io"
+baseurl: ""
+
+author:
+  name: "Francisco"
+  github: "feynman72"          # solo el usuario, sin https://
+  linkedin: ""                   # solo el final de tu URL, ej: francisco-tu-apellido
+  email: "sosa.francisco0203@gmail.com"                      # opcional
+
+# --- No tocar nada de aquí hacia abajo ---
+markdown: kramdown
+highlighter: rouge
+permalink: /bitacora/:year/:month/:title/
+timezone: America/Mexico_City
+
+# Las notas viven en la carpeta _notas/ (una subcarpeta por categoría)
+collections:
+  notas:
+    output: true
+    permalink: /notas/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "notas"
+    values:
+      layout: "nota"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
