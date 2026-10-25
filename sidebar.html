@@ -1,0 +1,14 @@
+<aside class="sidebar" aria-label="Índice de notas">
+  <a class="sidebar-home" href="{{ '/notas/' | relative_url }}">Todas las notas</a>
+  {% for cat in site.data.categorias %}
+    {% assign grupo = site.notas | where: "categoria", cat.slug | sort: "orden" %}
+    <details class="grupo"{% if page.categoria == cat.slug %} open{% endif %}>
+      <summary>{{ cat.nombre }} <span class="count">{{ grupo.size }}</span></summary>
+      <ul>
+        {% for n in grupo %}
+        <li><a href="{{ n.url | relative_url }}"{% if n.url == page.url %} aria-current="page"{% endif %}>{{ n.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </details>
+  {% endfor %}
+</aside>

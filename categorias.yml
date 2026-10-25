@@ -1,0 +1,24 @@
+# Categorías de la base de conocimiento.
+# "slug" debe coincidir con el nombre de la subcarpeta dentro de _notas/
+# y con el campo "categoria" de cada nota.
+# Para añadir una categoría: copia un bloque y cambia los textos.
+
+- slug: security-plus
+  nombre: "CompTIA Security+"
+  descripcion: "Notas por dominio del examen SY0-701."
+
+- slug: redes
+  nombre: "Redes"
+  descripcion: "Fundamentos: modelo OSI, TCP/IP, puertos y protocolos."
+
+- slug: linux
+  nombre: "Linux"
+  descripcion: "Comandos, permisos y administración básica."
+
+- slug: laboratorios
+  nombre: "Laboratorios"
+  descripcion: "Write-ups y prácticas, con lo que salió bien y mal."
+
+- slug: glosario
+  nombre: "Glosario"
+  descripcion: "Términos explicados con mis propias palabras."

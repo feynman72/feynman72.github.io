@@ -1,0 +1,42 @@
+---
+layout: default
+---
+{% assign cat = site.data.categorias | where: "slug", page.categoria | first %}
+{% assign hermanas = site.notas | where: "categoria", page.categoria | sort: "orden" %}
+{% assign prev = nil %}
+{% assign next = nil %}
+{% for n in hermanas %}
+  {% if n.url == page.url %}
+    {% assign i = forloop.index0 %}
+    {% assign ip = i | minus: 1 %}
+    {% assign inx = i | plus: 1 %}
+    {% if i > 0 %}{% assign prev = hermanas[ip] %}{% endif %}
+    {% assign next = hermanas[inx] %}
+  {% endif %}
+{% endfor %}
+
+<div class="kb">
+  {% include sidebar.html %}
+
+  <article class="nota">
+    <p class="crumbs">
+      <a href="{{ '/notas/' | relative_url }}">Notas</a> /
+      {{ cat.nombre | default: page.categoria }}
+    </p>
+    <h1>{{ page.title }}</h1>
+    <p class="meta">
+      {% if page.estado %}<span class="estado {{ page.estado }}">{{ page.estado | replace: "-", " " }}</span>{% endif %}
+      {% if page.actualizado %}<span class="dot">·</span> actualizado {{ page.actualizado | date: "%d/%m/%Y" }}{% endif %}
+      {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+    </p>
+
+    <div class="post-body">
+      {{ content }}
+    </div>
+
+    <nav class="pager" aria-label="Notas de la categoría">
+      {% if prev %}<a class="prev" href="{{ prev.url | relative_url }}">&larr; {{ prev.title }}</a>{% else %}<span></span>{% endif %}
+      {% if next %}<a class="next" href="{{ next.url | relative_url }}">{{ next.title }} &rarr;</a>{% endif %}
+    </nav>
+  </article>
+</div>

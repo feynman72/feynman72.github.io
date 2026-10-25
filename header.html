@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="wrap wide bar">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="prompt">&gt;_</span> {{ site.author.name }}
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Inicio</a>
+      <a href="{{ '/notas/' | relative_url }}"{% if page.url contains '/notas' or page.layout == 'nota' %} aria-current="page"{% endif %}>Notas</a>
+      <a href="{{ '/bitacora/' | relative_url }}"{% if page.url contains '/bitacora' %} aria-current="page"{% endif %}>Bitácora</a>
+      <a href="{{ '/sobre-mi/' | relative_url }}"{% if page.url contains '/sobre-mi' %} aria-current="page"{% endif %}>Sobre mí</a>
+    </nav>
+    <form class="search" action="{{ '/buscar/' | relative_url }}" method="get" role="search">
+      <input type="search" name="q" placeholder="Buscar en mis notas…" aria-label="Buscar en mis notas">
+    </form>
+  </div>
+</header>

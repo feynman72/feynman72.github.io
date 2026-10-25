@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% feed_meta %}
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  {% include header.html %}
+
+  <main id="contenido" class="wrap{% if page.ancho or page.layout == 'nota' %} wide{% endif %}">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
