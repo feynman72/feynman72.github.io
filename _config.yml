@@ -1,23 +1,25 @@
 # ============================================
 #  CONFIGURACIÓN DEL SITIO
-#  Editar solo lo que está entre comillas.
+#  Edita solo lo que está entre comillas.
 # ============================================
 
-title: "feynman72 KBs"
-tagline: ""
-description: "Base de mi poco conocimiento: notas por tema, laboratorios y glosario."
+title: "Francisco · Base de conocimiento de ciberseguridad"
+tagline: "Mis notas, laboratorios y aprendizajes en ciberseguridad"
+description: "Base de conocimiento personal de ciberseguridad: notas por tema, laboratorios y glosario."
 lang: es
 
-url: "https://feynman72.github.io"
+# Si tu repositorio se llama TU-USUARIO.github.io, deja baseurl vacío.
+# Cambia TU-USUARIO por tu usuario real de GitHub.
+url: "https://TU-USUARIO.github.io"
 baseurl: ""
 
 author:
   name: "Francisco"
-  github: "feynman72"          # solo el usuario, sin https://
+  github: "TU-USUARIO"          # solo el usuario, sin https://
   linkedin: ""                   # solo el final de tu URL, ej: francisco-tu-apellido
-  email: "sosa.francisco0203@gmail.com"                      # opcional
+  email: ""                      # opcional
 
-# --- No tocar nada de aquí hacia abajo ---
+# --- No necesitas tocar nada de aquí hacia abajo ---
 markdown: kramdown
 highlighter: rouge
 permalink: /bitacora/:year/:month/:title/

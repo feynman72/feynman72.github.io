@@ -1,0 +1,20 @@
+---
+layout: null
+---
+[
+{%- assign todo = site.notas | concat: site.posts -%}
+{%- for n in todo -%}
+  {%- assign nombre = "Bitácora" -%}
+  {%- if n.categoria -%}
+    {%- assign c = site.data.categorias | where: "slug", n.categoria | first -%}
+    {%- assign nombre = c.nombre -%}
+  {%- endif -%}
+  {
+    "title": {{ n.title | jsonify }},
+    "url": {{ n.url | relative_url | jsonify }},
+    "categoria": {{ nombre | jsonify }},
+    "tags": {{ n.tags | jsonify }},
+    "text": {{ n.content | strip_html | strip_newlines | truncate: 4000 | jsonify }}
+  }{%- unless forloop.last -%},{%- endunless -%}
+{%- endfor -%}
+]
