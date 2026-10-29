@@ -1,31 +1,28 @@
 # ============================================
 #  CONFIGURACIÓN DEL SITIO
-#  Edita solo lo que está entre comillas.
 # ============================================
 
-title: "Francisco · Base de conocimiento de ciberseguridad"
-tagline: "Mis notas, laboratorios y aprendizajes en ciberseguridad"
-description: "Base de conocimiento personal de ciberseguridad: notas por tema, laboratorios y glosario."
+title: "feynman72 - Knowledge Base"
+tagline: "Mis notas, laboratorios y aprendizajes"
+description: "Una base del poco conocimiento adquirido mediante experiencia"
 lang: es
 
-# Si tu repositorio se llama TU-USUARIO.github.io, deja baseurl vacío.
-# Cambia TU-USUARIO por tu usuario real de GitHub.
-url: "https://TU-USUARIO.github.io"
+url: "https://feynman72.github.io"
 baseurl: ""
 
 author:
-  name: "Francisco"
-  github: "TU-USUARIO"          # solo el usuario, sin https://
-  linkedin: ""                   # solo el final de tu URL, ej: francisco-tu-apellido
-  email: ""                      # opcional
+  name: "feynman72"
+  github: "feynman72"          
+  linkedin: ""                   
+  email: ""                     
 
-# --- No necesitas tocar nada de aquí hacia abajo ---
+
 markdown: kramdown
 highlighter: rouge
 permalink: /bitacora/:year/:month/:title/
 timezone: America/Mexico_City
 
-# Las notas viven en la carpeta _notas/ (una subcarpeta por categoría)
+
 collections:
   notas:
     output: true
