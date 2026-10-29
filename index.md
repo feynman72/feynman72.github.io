@@ -5,12 +5,12 @@ ancho: true
 ---
 
 <section class="hero">
-  <div class="eyebrow">$ cat /home/francisco/README</div>
-  <h1>Mi base de conocimiento de ciberseguridad.</h1>
+  <div class="eyebrow">$ cat /home/feynman72/README</div>
+  <h1>Temas de aprendizaje.</h1>
   <p class="lead">
-    Aquí organizo lo que voy aprendiendo: notas por tema, laboratorios y un glosario
+    Aquí organizo lo que voy aprendiendo: notas, laboratorios y un glosario
     con mis propias palabras. Todo escrito por mí, y siempre en construcción.
-  </p>
+  </p> 
   <div class="btns">
     <a class="btn primary" href="{{ '/notas/' | relative_url }}">Explorar las notas</a>
     <a class="btn" href="{{ '/buscar/' | relative_url }}">Buscar</a>
