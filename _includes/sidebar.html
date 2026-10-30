@@ -4,11 +4,26 @@
     {% assign grupo = site.notas | where: "categoria", cat.slug | sort: "orden" %}
     <details class="grupo"{% if page.categoria == cat.slug %} open{% endif %}>
       <summary>{{ cat.nombre }} <span class="count">{{ grupo.size }}</span></summary>
+
+      {% comment %} Notas sueltas (sin subgrupo) {% endcomment %}
       <ul>
-        {% for n in grupo %}
+        {% for n in grupo %}{% unless n.subgrupo %}
         <li><a href="{{ n.url | relative_url }}"{% if n.url == page.url %} aria-current="page"{% endif %}>{{ n.title }}</a></li>
-        {% endfor %}
+        {% endunless %}{% endfor %}
       </ul>
+
+      {% comment %} Subgrupos {% endcomment %}
+      {% assign subs = grupo | group_by: "subgrupo" %}
+      {% for s in subs %}{% if s.name != "" %}
+      <details class="subgrupo"{% if page.subgrupo == s.name %} open{% endif %}>
+        <summary>{{ s.name }}</summary>
+        <ul>
+          {% for n in s.items %}
+          <li><a href="{{ n.url | relative_url }}"{% if n.url == page.url %} aria-current="page"{% endif %}>{{ n.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+      {% endif %}{% endfor %}
     </details>
   {% endfor %}
 </aside>

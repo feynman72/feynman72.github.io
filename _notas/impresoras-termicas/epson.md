@@ -1,10 +1,11 @@
 ---
-title: "Epson"
+title: "Epson TM-T20III"
 categoria: impresoras-termicas
-orden: 1
-estado: pendiente
-actualizado: 2026-10-28
-tags: [impresoras-termicas, impresoras]
+subgrupo: "Epson"
+orden: 2
+estado: en-curso
+actualizado: 2026-10-29
+tags: [impresoras-termicas, epson]
 ---
 
 ## Funciones principales
