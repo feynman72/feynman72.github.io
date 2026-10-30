@@ -14,6 +14,9 @@ Aquí iré anotando los comandos que uso, con un ejemplo y para qué sirven.
 | `ls` | Listar archivos | `ls -la` |
 | `pwd` | Listar directorio y path del archivo | `pwg` |
 | `mkdir` | Crear nuevo directorio de un archivo/carpeta | `mkdir directory_name` |
+| `cd` | Hace cambio al directorio seleccionado siempre y cuando se encuentre dentro del path en el que nos encontramos| `cd directory_name` |
+| `rmdir` | Sirve para el borrado del directorio seleccionado siempre que se encuentre dentro del path seleccionado | `rmdir directory_name` |
+
 
 ## Cosas que me confundieron
 

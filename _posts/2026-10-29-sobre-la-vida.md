@@ -4,7 +4,7 @@ title: "Sobre la vida y el saber aprender"
 tags: [inicio]
 ---
 
-Siempre me he preguntado si alguna vez sabré todo lo que necesito conocer para evitar considerarte un neófito de la vida.
+Siempre me he preguntado si alguna vez sabré todo lo que necesito conocer para evitar considerarme un neófito de la vida.
 
 ## Del conocimiento y más allá
 
