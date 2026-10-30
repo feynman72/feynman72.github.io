@@ -17,7 +17,7 @@ ancho: true
   </div>
 </section>
 
-## Temas
+## Apartados
 
 <div class="cards">
   {% for cat in site.data.categorias %}
