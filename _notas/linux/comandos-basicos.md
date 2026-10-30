@@ -13,6 +13,7 @@ Aquí iré anotando los comandos que uso, con un ejemplo y para qué sirven.
 |---|---|---|
 | `ls` | Listar archivos | `ls -la` |
 | `pwd` | Listar directorio y path del archivo | `pwg` |
+| `mkdir` | Crear nuevo directorio de un archivo/carpeta | `mkdir directory_name` |
 
 ## Cosas que me confundieron
 
