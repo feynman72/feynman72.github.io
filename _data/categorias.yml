@@ -7,6 +7,10 @@
   nombre: "CompTIA Security+"
   descripcion: "Notas por dominio del examen SY0-701."
 
+- slug: impresoras-termicas
+  nombre: "Impresoras térmicas"
+  descripcion: "Epson y otras: funciones, troubleshooting y drivers."
+
 - slug: redes
   nombre: "Redes"
   descripcion: "Fundamentos: modelo OSI, TCP/IP, puertos y protocolos."

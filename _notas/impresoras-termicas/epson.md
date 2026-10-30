@@ -1,5 +1,5 @@
 ---
-title: "Epson Thermal Printers"
+title: "Epson"
 categoria: impresoras-termicas
 orden: 1
 estado: pendiente
