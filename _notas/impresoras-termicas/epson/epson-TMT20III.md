@@ -20,7 +20,7 @@ Los pasos principales para hacer un diagnóstico correcto para una Epson TM-T20I
 - Validando el propio led podemos dar salto a la revisión desde el OS (supondremos que es Win10/Win11):
     - Ingresamos a panel de control y buscamos impresoras/escáneres. Para facilitar el acceso usaremos Win+R y copiaremos:
         - shell:::{A8A91A66-3A7D-4424-8D24-04E180695C7A}
-    Nos dará acceso directo a los Devices dónde podremos buscar el modelo y validar el estatus.
+    - Nos dará acceso directo a los Devices dónde podremos buscar el modelo y validar el estatus.
     
 
 ## Ejemplo
