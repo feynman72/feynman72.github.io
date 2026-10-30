@@ -7,7 +7,7 @@
   nombre: "CompTIA Security+"
   descripcion: "Notas por dominio del examen SY0-701."
 
-- slug: impresoras-termicas/epson
+- slug: impresoras-termicas
   nombre: "Impresoras térmicas"
   descripcion: "Funciones, troubleshooting y drivers."
 
