@@ -12,6 +12,7 @@ Aquí iré anotando los comandos que uso, con un ejemplo y para qué sirven.
 | Comando | Para qué sirve | Ejemplo |
 |---|---|---|
 | `ls` | Listar archivos | `ls -la` |
+| `pwd` | Listar directorio y path del archivo | `pwg` |
 
 ## Cosas que me confundieron
 
