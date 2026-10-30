@@ -311,6 +311,20 @@ a.linkcard h3 { color: var(--text); }
 }
 .tribute p { flex: 1; min-width: 220px; margin: 0; color: var(--muted); }
 
-.subgrupo { margin: 2px 0 6px; }
-.subgrupo summary { font-weight: 500; font-size: .92rem; color: var(--muted); }
-.subgrupo[open] > summary::before { content: "▾"; }
+.sidebar details > summary { list-style: none; }
+.sidebar details > summary::-webkit-details-marker { display: none; }
+.sidebar details:not([open]) > summary::before { content: "▸"; }
+.sidebar details[open] > summary::before { content: "▾"; }
+
+.sidebar .subgrupo {
+  margin: 2px 0 8px;
+  padding-left: 16px;
+  border-left: 1px solid var(--border);
+}
+.sidebar .subgrupo > summary {
+  font-weight: 500;
+  font-size: .93rem;
+  color: var(--muted);
+  padding: 4px 0;
+}
+.sidebar .subgrupo ul { margin-bottom: 4px; }

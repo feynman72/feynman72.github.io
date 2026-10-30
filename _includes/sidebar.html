@@ -15,7 +15,9 @@
       {% comment %} Subgrupos {% endcomment %}
       {% assign subs = grupo | group_by: "subgrupo" %}
       {% for s in subs %}{% if s.name != "" %}
-      <details class="subgrupo"{% if page.subgrupo == s.name %} open{% endif %}>
+      {% assign abierto = false %}
+      {% for n in s.items %}{% if n.url == page.url %}{% assign abierto = true %}{% endif %}{% endfor %}
+      <details class="subgrupo"{% if abierto %} open{% endif %}>
         <summary>{{ s.name }}</summary>
         <ul>
           {% for n in s.items %}
