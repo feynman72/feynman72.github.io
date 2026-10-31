@@ -11,6 +11,10 @@
   nombre: "Impresoras térmicas"
   descripcion: "Funciones, troubleshooting y drivers."
 
+- slug: impresoras-laser
+  nombre: "Impresoras láser"
+  descripcion: "Funciones, troubleshooting y drivers."
+
 - slug: redes
   nombre: "Redes"
   descripcion: "Fundamentos: modelo OSI, TCP/IP, puertos y protocolos."
