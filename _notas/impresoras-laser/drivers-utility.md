@@ -1,7 +1,7 @@
 ---
 title: "Drivers vs Utility"
 categoria: impresoras-laser
-subgrupo: ""
+subgrupo: "General"
 orden: 2
 estado: en-curso
 actualizado: 2026-10-31
