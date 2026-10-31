@@ -4,7 +4,7 @@ categoria: impresoras-termicas
 subgrupo: "Epson"
 orden: 2
 estado: en-curso
-actualizado: 2026-10-29
+actualizado: 2026-10-30
 tags: [impresoras-termicas, epson]
 ---
 
