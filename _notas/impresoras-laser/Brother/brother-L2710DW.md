@@ -3,7 +3,7 @@ title: "Brother MFC-L2710DW"
 categoria: impresoras-laser
 subgrupo: "Brother"
 orden: 2
-estado: pendiente
+estado: creado
 actualizado: 2026-10-31
 tags: [impresoras-laser, brother]
 ---
