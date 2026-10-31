@@ -18,7 +18,7 @@ Uno de los problemas que nos encontramos al indagar en los controladores de una 
     - Dentro de la amalgama de opciones que tenemos al ingresar al sitio oficial de cada impresora siempre será mejor instalar ambos pero la decisión importante precede si manejamos pocas opciones y en esta situación nos decantaremos por la utility.
 - Casos extremos:
     - Internet/equipo lento: Descargamos el driver. Un equipo con problemas al siquiera ejecutar programas o descargar desde la red tendrá inconvenientes con otro que necesita comunicación a full con la impresora.
-    - Impresora antigüa: De misma forma, solo drivers por el simple hecho que es muy poco probable que cuente con utility y en caso de existir lo más probable no esté optimizada correctamente.
+    - Impresora antigüa: De misma forma, solo drivers por el simple hecho que es muy poco probable que cuente con utility y en caso de existir quizá no esté optimizada correctamente.
 
 ## Ejemplo
 
