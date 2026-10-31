@@ -2,8 +2,8 @@
 title: "Comandos básicos de Linux"
 categoria: linux
 orden: 1
-estado: pendiente
-actualizado: 2026-10-25
+estado: en-curso
+actualizado: 2026-10-31
 tags: [linux, terminal]
 ---
 
@@ -21,7 +21,7 @@ Aquí iré anotando los comandos que uso, con un ejemplo y para qué sirven.
 | `mv` | Realiza el cambio de nombre a un archivo/directorio | `mv old_name new_name` |
 | `rm` | Elimina el archivo seleccionado dentro del path | `rm file_name` |
 | `uname` | Lista información del sistema | `uname [OPTIONS]` |
-
+| `locate` | Sirve para localizar el archivo dentro del directorio y mostrando su path | `locate file_name` |
 
 ## Cosas que me confundieron
 
