@@ -18,12 +18,16 @@ Aquí iré anotando los comandos que uso, con un ejemplo y para qué sirven.
 | `rmdir` | Sirve para el borrado del directorio vació seleccionado siempre que se encuentre dentro del path. | `rmdir directory_name` |
 | `cat` | Muestra el contenido/unidades del archivo dado. | `cat file_name` |
 | `cp` | Realiza la copia del contenido de un archivo hacia otro mientras sea compatible. | `cp source destination` |
-| `mv` | Realiza el cambio de nombre a un archivo/directorio | `mv old_name new_name` |
+| `mv` | Realiza el cambio de nombre a un archivo/directorio. | `mv old_name new_name` |
 | `rm` | Elimina el archivo seleccionado dentro del path. | `rm file_name` |
 | `uname` | Lista información del sistema. | `uname [OPTIONS]` |
 | `locate` | Sirve para localizar el archivo dentro del directorio y mostrando su path. | `locate file_name` |
 | `touch` | Permite crear archivos vacíos dentro del directorio y permite actualizar el  timestamp del mismo. | `touch file_name` |
 | `ln` | Sirve para crear links entre archivos dependiendo del tipo si es Hard o Soft (-s). | `ln -s source link_name` |
+| `clear` | Algo básico pero su función principal va relacionada con limpiar la terminal de comandos. | `clear` |
+| `ps` | Muestra los procesos que se encuentrar realizando al momento de ejecutar el comando. | `ps aux` |
+| `man` | Se utiliza para ver los manuales, opciones y usos de los comandos. | `man command_name` |
+
 
 ## Cosas que me confundieron
 
