@@ -30,3 +30,7 @@
 - slug: glosario
   nombre: "Glosario"
   descripcion: "Términos explicados con mis propias palabras."
+
+- slug: servidores
+  nombre: "Servidores"
+  descripcion: "Consultas, troubleshooting y tipos"
