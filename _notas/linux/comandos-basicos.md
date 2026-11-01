@@ -11,7 +11,7 @@ Aquí iré anotando los comandos que uso, con un ejemplo y para qué sirven.
 
 | Comando | Para qué sirve | Ejemplo |
 |---|---|---|
-| `ls` | Listar archivos | `ls -la` |
+| `ls` | Listar archivos | `ls [OPTIONS] [DIRECTORY]` |
 | `pwd` | Listar directorio y path del archivo | `pwg` |
 | `mkdir` | Crear nuevo directorio de un archivo/carpeta | `mkdir directory_name` |
 | `cd` | Hace cambio al directorio seleccionado siempre y cuando se encuentre dentro del path en el que nos encontramos| `cd directory_name` |
@@ -22,6 +22,8 @@ Aquí iré anotando los comandos que uso, con un ejemplo y para qué sirven.
 | `rm` | Elimina el archivo seleccionado dentro del path | `rm file_name` |
 | `uname` | Lista información del sistema | `uname [OPTIONS]` |
 | `locate` | Sirve para localizar el archivo dentro del directorio y mostrando su path | `locate file_name` |
+| `touch` | Permite crear archivos vacíos dentro del directorio y permite actualizar el  timestamp del mismo | `touch file_name` |
+| `ln` | Sirve para crear links entre archivos dependiendo del tipo si es Hard o Soft (-s) | `ln -s source link_name` |
 
 ## Cosas que me confundieron
 
