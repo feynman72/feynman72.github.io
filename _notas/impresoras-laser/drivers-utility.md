@@ -21,5 +21,11 @@ Uno de los problemas que nos encontramos al indagar en los controladores de una 
     - Impresora antigüa: De misma forma, solo drivers por el simple hecho que es muy poco probable que cuente con utility y en caso de existir quizá no esté optimizada correctamente.
 
 ## Ejemplo
+Nos pondremos en uno de los casos extremos en dónde el equipo que estamos revisando cuenta con una conexión a red bastante inestable y por tanto nuestros movimientos se ven limitados tanto por lentitud como por nuestra propia paciencia.
+- Identificaremos el modelo antes de realizar un movimiento en el equipo, en esta situación la forma ideal es preguntándolo directamente al usuario y ya con esa información continuamos con la búsqueda en navegador.
+- Podemos revisar panel de control, tanto para ubicar el driver cómo para ver si el modelo es detectado con algún estatus pero por limitación saltaremos este paso de momento.
+- Lo que haremos ahora es ingresar directamente al sitio, sin hacer búsqueda en el equipo dado que en nuestro computador haremos esa investigación hasta dar con el sitio oficial.
+- Descargaremos el driver y lo ejecutaremos como adminsitrador, de estar instalado previamente nos dará un aviso pero en la mayoría de los casos podremos desinstalardo durante este paso.
+- Asignaremos la impresora de forma manual siendo que evitaremos los genéricos.
 
-## Referencias y drivers
+## Referencias 
