@@ -4,7 +4,7 @@ categoria: impresoras-laser
 subgrupo: "General"
 orden: 2
 estado: en-curso
-actualizado: 2026-10-31
+actualizado: 2026-11-01
 tags: [impresoras-laser, drivers]
 ---
 
