@@ -2,8 +2,8 @@
 title: "Comandos básicos de Linux"
 categoria: linux
 orden: 1
-estado: en-curso
-actualizado: 2026-10-31
+estado: completo
+actualizado: 2026-11-01
 tags: [linux, terminal]
 ---
 
