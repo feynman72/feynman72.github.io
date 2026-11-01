@@ -3,7 +3,7 @@ title: "Glosario"
 categoria: glosario
 orden: 1
 estado: en-curso
-actualizado: 2026-10-31
+actualizado: 2026-11-01
 tags: [glosario]
 ---
 
@@ -16,3 +16,5 @@ Términos que voy encontrando.
 | *Linux Architecture* | La forma de distribución y organizaciób del OS para con el equipo. | Básico 1 |
 | *Kernel* | El núclo del OS, prácticamente el cómo se comunican los procesos dentro del equipo y la forma de gestión del hardware. | Básico 1 |
 | *Shell* | Es la interfaz de comandos que interpreta las órdenes del usuario | Básico 1 |
+| *System Libraries* | Su característica principal es en la capa en dónde se ejecuta ya que maneja directamente desde las aplicaciones para hablar con el Kernel | Básico 1 |
+| *Hardware Layer* | Prácticamente son los componentes físicos del equipo dónde se ejecuta Linux que van desde la RAM, CPU, periféricos, etc. | Básico 1 |
