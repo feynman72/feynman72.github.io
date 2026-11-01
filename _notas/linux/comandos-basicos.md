@@ -37,7 +37,6 @@ Aquí iré anotando los comandos que uso, con un ejemplo y para qué sirven.
 | `df` | Muestra el espacio usado en el disco junto a sus particiones | `df [options]` |
 | `wc` | Cuenta la cantidad de líneas, palabras y bytes contenidos en un archivo además de mostrarlo en la terminal. | `wc [option] file_name` |
 
-
-## Cosas que me confundieron
-
 ## Referencias
+
+- La jerarquización de comandos se tomó de esta web y de igual manera se pueden consultar ejemplos: https://www.geeksforgeeks.org/linux-unix/basic-linux-commands/ 
