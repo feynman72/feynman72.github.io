@@ -11,19 +11,19 @@ Aquí iré anotando los comandos que uso, con un ejemplo y para qué sirven.
 
 | Comando | Para qué sirve | Ejemplo |
 |---|---|---|
-| `ls` | Listar archivos | `ls [OPTIONS] [DIRECTORY]` |
-| `pwd` | Listar directorio y path del archivo | `pwg` |
-| `mkdir` | Crear nuevo directorio de un archivo/carpeta | `mkdir directory_name` |
-| `cd` | Hace cambio al directorio seleccionado siempre y cuando se encuentre dentro del path en el que nos encontramos| `cd directory_name` |
-| `rmdir` | Sirve para el borrado del directorio vació seleccionado siempre que se encuentre dentro del path| `rmdir directory_name` |
-| `cat` | Muestra el contenido/unidades del archivo dado | `cat file_name` |
-| `cp` | Realiza la copia del contenido de un archivo hacia otro mientras sea compatible | `cp source destination` |
+| `ls` | Listar archivos. | `ls [OPTIONS] [DIRECTORY]` |
+| `pwd` | Listar directorio y path del archivo. | `pwg` |
+| `mkdir` | Crear nuevo directorio de un archivo/carpeta. | `mkdir directory_name` |
+| `cd` | Hace cambio al directorio seleccionado siempre y cuando se encuentre dentro del path en el que nos encontramos. | `cd directory_name` |
+| `rmdir` | Sirve para el borrado del directorio vació seleccionado siempre que se encuentre dentro del path. | `rmdir directory_name` |
+| `cat` | Muestra el contenido/unidades del archivo dado. | `cat file_name` |
+| `cp` | Realiza la copia del contenido de un archivo hacia otro mientras sea compatible. | `cp source destination` |
 | `mv` | Realiza el cambio de nombre a un archivo/directorio | `mv old_name new_name` |
-| `rm` | Elimina el archivo seleccionado dentro del path | `rm file_name` |
-| `uname` | Lista información del sistema | `uname [OPTIONS]` |
-| `locate` | Sirve para localizar el archivo dentro del directorio y mostrando su path | `locate file_name` |
-| `touch` | Permite crear archivos vacíos dentro del directorio y permite actualizar el  timestamp del mismo | `touch file_name` |
-| `ln` | Sirve para crear links entre archivos dependiendo del tipo si es Hard o Soft (-s) | `ln -s source link_name` |
+| `rm` | Elimina el archivo seleccionado dentro del path. | `rm file_name` |
+| `uname` | Lista información del sistema. | `uname [OPTIONS]` |
+| `locate` | Sirve para localizar el archivo dentro del directorio y mostrando su path. | `locate file_name` |
+| `touch` | Permite crear archivos vacíos dentro del directorio y permite actualizar el  timestamp del mismo. | `touch file_name` |
+| `ln` | Sirve para crear links entre archivos dependiendo del tipo si es Hard o Soft (-s). | `ln -s source link_name` |
 
 ## Cosas que me confundieron
 
