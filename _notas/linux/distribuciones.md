@@ -9,8 +9,8 @@ tags: [distribucion, linux]
 
 ## Funciones principales
 
-## Troubleshooting general
+## Instalación
 
 ## Ejemplo
 
-## Referencias y drivers
+## Referencias
