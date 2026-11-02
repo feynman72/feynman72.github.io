@@ -7,9 +7,9 @@ actualizado: 2026-11-01
 tags: [linux, terminal]
 ---
 
-Aquí iré anotando los comandos que uso, con un ejemplo y para qué sirven.
+Se anotaron los comandos de uso simple, para qué sirven y su forma compuesta.
 
-| Comando | Para qué sirve | Ejemplo |
+| Comando | Para qué sirve | Terminal |
 |---|---|---|
 | `ls` | Listar archivos. | `ls [options] [directory]` |
 | `pwd` | Listar directorio y path del archivo. | `pwg` |

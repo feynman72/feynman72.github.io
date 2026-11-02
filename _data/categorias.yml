@@ -20,8 +20,8 @@
   descripcion: "Fundamentos: modelo OSI, TCP/IP, puertos y protocolos."
 
 - slug: linux
-  nombre: "Linux"
-  descripcion: "Comandos, permisos y administración básica."
+  nombre: "Fundamentos de Linux"
+  descripcion: "Comandos, permisos y administración."
 
 - slug: laboratorios
   nombre: "Laboratorios"
