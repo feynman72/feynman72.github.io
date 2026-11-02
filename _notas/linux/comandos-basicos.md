@@ -27,7 +27,7 @@ Se anotaron los comandos de uso simple, para qué sirven y su forma compuesta.
 | `clear` | Algo básico pero su función principal va relacionada con limpiar la terminal de comandos. | `clear` |
 | `ps` | Muestra los procesos que se encuentrar realizando al momento de ejecutar el comando. | `ps aux` |
 | `man` | Se utiliza para ver los manuales, opciones y usos de los comandos. | `man command_name` |
-| `grep` | Filtro y búsqueda de strings dentro de un archivo, mostrando las coincidencias junto al comando 'cat'. | `grep "string" flie.txt` |
+| `grep` | Filtro y búsqueda de strings dentro de un archivo, mostrando las coincidencias junto al comando 'cat'. | `grep "string" file.txt` |
 | `echo` | Se usa para mostrar strings en la terminal | `echo "text"` |
 | `wget` | Permite descargar archivos desde la red con una url específica | `wget url` |
 | `whoami` | Muestra el usuario actual que ejecuta el comando | `whoami` |
