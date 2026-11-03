@@ -49,4 +49,4 @@ La parte sencilla dentro las distribuciones:
 
 ## Referencias
 - ¿Qué es una distribución? https://www.geeksforgeeks.org/linux-unix/what-are-linux-distributions/
-- Instalación de Linux Mint y versiones https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html
+- Instalación de Linux Mint y versiones: https://linuxmint-installation-guide.readthedocs.io/en/latest/install.html
