@@ -1,5 +1,5 @@
 ---
-title: "Glosario"
+title: "Conceptos"
 categoria: glosario
 orden: 1
 estado: en-curso

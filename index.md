@@ -42,7 +42,7 @@ ancho: true
   <li>
     <time datetime="{{ n.actualizado | date_to_xmlschema }}">{{ n.actualizado | date: "%d/%m/%Y" }}</time>
     <div class="info">
-      <span class="origen">{{ c.nombre }}{% if n.subgrupo %} › {{ n.subgrupo }}{% endif %}</span>
+      <div class="origen">{{ c.nombre }}{% if n.subgrupo and n.subgrupo != n.title %} › {{ n.subgrupo }}{% endif %}</div>
       <a class="title" href="{{ n.url | relative_url }}">{{ n.title }}</a>
       {% if n.estado %}<span class="estado {{ n.estado }}">{{ n.estado | replace: "-", " " }}</span>{% endif %}
     </div>
