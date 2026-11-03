@@ -37,10 +37,12 @@ ancho: true
 </div>
 
 <ul class="entries">
-  {% for n in recientes limit:6 %}
+  {% for n in recientes limit:8 %}
+  {% assign c = site.data.categorias | where: "slug", n.categoria | first %}
   <li>
     <time datetime="{{ n.actualizado | date_to_xmlschema }}">{{ n.actualizado | date: "%d/%m/%Y" }}</time>
     <div class="info">
+      <span class="origen">{{ c.nombre }}{% if n.subgrupo %} › {{ n.subgrupo }}{% endif %}</span>
       <a class="title" href="{{ n.url | relative_url }}">{{ n.title }}</a>
       {% if n.estado %}<span class="estado {{ n.estado }}">{{ n.estado | replace: "-", " " }}</span>{% endif %}
     </div>

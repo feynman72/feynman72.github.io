@@ -328,3 +328,11 @@ a.linkcard h3 { color: var(--text); }
   padding: 4px 0;
 }
 .sidebar .subgrupo ul { margin-bottom: 4px; }
+
+.entries .origen {
+  display: block;
+  font-family: var(--mono);
+  font-size: .75rem;
+  color: var(--muted);
+  margin-bottom: 1px;
+}

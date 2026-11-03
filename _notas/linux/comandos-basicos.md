@@ -1,5 +1,5 @@
 ---
-title: "Comandos básicos de Linux"
+title: "Comandos básicos"
 categoria: linux
 orden: 1
 estado: completo
