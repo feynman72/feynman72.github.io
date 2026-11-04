@@ -15,9 +15,9 @@
   nombre: "Impresoras láser"
   descripcion: "Funciones, troubleshooting y drivers."
 
-- slug: redes
-  nombre: "Redes"
-  descripcion: "Fundamentos: modelo OSI, TCP/IP, puertos y protocolos."
+- slug: network-plus
+  nombre: "CompTIA Network+"
+  descripcion: "Temario y notas para el examen N10-009"
 
 - slug: linux
   nombre: "Fundamentos de Linux"
