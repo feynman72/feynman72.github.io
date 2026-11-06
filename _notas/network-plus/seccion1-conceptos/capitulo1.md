@@ -4,7 +4,7 @@ categoria: network-plus
 subgrupo: "Sección I - Conceptos de redes"
 orden: 1
 estado: en-curso
-actualizado: 2026-11-04
+actualizado: 2026-11-06
 tags: [redes, fundamentos, network-plus]
 ---
 
@@ -25,14 +25,14 @@ Fue definido en la ISO/IEC 7498 en 1984. Es un modelo por capas que describe com
 El modelo OSI es importante de entender por su arquitecutra modular, básicamente comprender la interacción entre las varias capas que contiene. La meta principal de esta forma de categorizar es mejorar la funcionalidad y operabilidad entre diferentes aplicaciones-vendedores. Ejemplo: Ciertas aplicaciones o funciones de capas más altas pueden desarrollarse sin la necesidad de preocuparse de las capas bajas dado que existe cierto nivel de confianza dentro de los paquetes analizados por estos mismos.
 
 
-- Protocolos: 
+### Protocolos: 
 Son reglas que los dispositivos de red usan. en dónde deben estar de acuerdo en determinadas reglas para comunicarse entre sí con el mismo protocolo. Las diferentes capas usan diferenstes protocolos o formas de interactuar. Ejemplo: En capas bajas se usa comunicación LAN-WAN o en la Capa 3 se usan protocolos de enrutamiento.
 
 Pueden ser organizados en grupos dónde el TCP/IP es el más común dentro de redes. Su característica fundamental tanto para Internet como para las organizaciones.
 
-- Capa 7 - Aplicación:
-Es la más cercana al usaurio final en dónde utiliza servicios de network taaales como transmisión de datos como imágenes o documentos. 
-
+<<<<<<< HEAD
+### Capa 7 - Aplicación:
+Es la más cercana al usaurio final en dónde utiliza los servicios de network disponibles para transmitir informacion como imágenes o documentos. El usuario interactúa con una aplicación en esta capa que maneja el software de comunicación-entre-red.
 
 ## 
 
