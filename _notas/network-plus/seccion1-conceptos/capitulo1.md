@@ -32,7 +32,7 @@ Pueden ser organizados en grupos dónde el TCP/IP es el más común dentro de re
 
 ### Capa 7 - Aplicación:
 Es la más cercana al usaurio final en dónde utiliza los servicios de network disponibles para transmitir informacion como imágenes o documentos. El usuario interactúa con una aplicación en esta capa que maneja el software de comunicación-entre-red.
----
+#####
 Dependiendo de la información que el usuario va a disponer en la red es el protocolo necesario, como pueden ser:
 - SMTP, POP3: Para recibir y enviar correos.
 - FTP: Usado en transmitir archivos en la red.
@@ -40,9 +40,9 @@ Dependiendo de la información que el usuario va a disponer en la red es el prot
 
 ### Capa 6 - Presentación:
 Se encarga de hacer la información entendible para el sistema final. Osea, convierte y aplica formatos en cierta forma para que el sistema reconozca lo que está recibiendo/enviando y pueda saber que hacer con ella. En dónde se incluye la traducción o conversión de formas de compresión, encriptación o representación de carácteres (ASCII to Unicode).
----
+#####
 Esta capa tiene que lidiar con formatos de compresión de audio/video y si los paquetes de la capa 7 no poseen algún formato, la capa 6 se encarga de traducirlo antes de pasarlo a la capa 5.
----
+#####
 Básicamente especifíca el formato, estructura, código, compresión para asegurarse que la información enviada por alguien en la capa 7 pueda ser interpretada por un destino.
 
 ### Capa 5 - Sesión
