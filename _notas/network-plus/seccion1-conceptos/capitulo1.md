@@ -30,7 +30,6 @@ Son reglas que los dispositivos de red usan. en dónde deben estar de acuerdo en
 
 Pueden ser organizados en grupos dónde el TCP/IP es el más común dentro de redes. Su característica fundamental tanto para Internet como para las organizaciones.
 
-<<<<<<< HEAD
 ### Capa 7 - Aplicación:
 Es la más cercana al usaurio final en dónde utiliza los servicios de network disponibles para transmitir informacion como imágenes o documentos. El usuario interactúa con una aplicación en esta capa que maneja el software de comunicación-entre-red.
 
