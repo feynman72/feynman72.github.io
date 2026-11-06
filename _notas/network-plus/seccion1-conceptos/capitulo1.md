@@ -32,6 +32,11 @@ Pueden ser organizados en grupos dónde el TCP/IP es el más común dentro de re
 
 ### Capa 7 - Aplicación:
 Es la más cercana al usaurio final en dónde utiliza los servicios de network disponibles para transmitir informacion como imágenes o documentos. El usuario interactúa con una aplicación en esta capa que maneja el software de comunicación-entre-red.
+---
+Dependiendo de la información que el usuario va a disponer en la red es el protocolo necesario, como pueden ser:
+- SMTP, POP3: Para recibir y enviar correos.
+- FTP: Usado en transmitir archivos en la red.
+- Telnet: Par el control remoto de dispositivos.
 
 ## 
 
