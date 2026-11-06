@@ -13,7 +13,7 @@ Fue definido en la ISO/IEC 7498 en 1984. Es un modelo por capas que describe com
  - El modelo de referencia, el cuál tiene 7 capas.
  - Los protocolos de estas capas que se mapean entre sí.
 
-| Capas OSI | Función |
+| **Capas OSI** | **Función** |
 | *Capa 7* | `Aplicación` |
 | *Capa 6* | `Presentación` |
 | *Capa 5* | `Sesión` |
