@@ -31,7 +31,7 @@ Son reglas que los dispositivos de red usan. en dónde deben estar de acuerdo en
 Pueden ser organizados en grupos dónde el TCP/IP es el más común dentro de redes. Su característica fundamental tanto para Internet como para las organizaciones.
 
 - Capa 7 - Aplicación:
-Es la más cercana al usaurio final en dónde utiliza servicios de network
+Es la más cercana al usaurio final en dónde utiliza servicios de network taaales como transmisión de datos como imágenes o documentos. 
 
 
 ## 
