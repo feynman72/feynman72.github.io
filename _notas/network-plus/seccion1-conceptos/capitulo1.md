@@ -8,7 +8,7 @@ actualizado: 2026-11-06
 tags: [redes, fundamentos, network-plus]
 ---
 
-## Modelo OSI
+## *Modelo OSI*
 Fue definido en la ISO/IEC 7498 en 1984. Es un modelo por capas que describe como interactúa una aplicación de un dispositivo de red hacia un afuente de destino por medio de un medio físico. Parte de dos conceptos importantes:
  - El modelo de referencia, el cuál tiene 7 capas.
  - Los protocolos de estas capas que se mapean entre sí.
@@ -38,8 +38,15 @@ Dependiendo de la información que el usuario va a disponer en la red es el prot
 - FTP: Usado en transmitir archivos en la red.
 - Telnet: Par el control remoto de dispositivos.
 
-## 
+### Capa 6 - Presentación:
+Se encarga de hacer la información entendible para el sistema final. Osea, convierte y aplica formatos en cierta forma para que el sistema reconozca lo que está recibiendo/enviando y pueda saber que hacer con ella. En dónde se incluye la traducción o conversión de formas de compresión, encriptación o representación de carácteres (ASCII to Unicode).
+---
+Esta capa tiene que lidiar con formatos de compresión de audio/video y si los paquetes de la capa 7 no poseen algún formato, la capa 6 se encarga de traducirlo antes de pasarlo a la capa 5.
+---
+Básicamente especifíca el formato, estructura, código, compresión para asegurarse que la información enviada por alguien en la capa 7 pueda ser interpretada por un destino.
 
-## Ejemplo que me ayudó a entenderlo
+### Capa 5 - Sesión
 
-## Referencias
+## *Ejemplo que me ayudó a entenderlo*
+
+## *Referencias*
