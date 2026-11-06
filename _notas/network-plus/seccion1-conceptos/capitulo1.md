@@ -60,7 +60,7 @@ Acepta información de la capa 5 y la divide en segmentos de transporte. Osea, e
 - Secuenciación
 - Multiplexación de datos
 
-Estas características son implementadas por un circuito virtual entre el emisor-receptor. La capa 4 inicia, mantiene y termina estos circuitos virtuales ademas de usar segmentos como protocolo de unidades de datos (PDUs). Los segmentos son definidos como conjuntos de datos que incluyen control de información y son enviados entre las capas 4 de los endpoints.
+Estas características son implementadas por un circuito virtual entre el emisor-receptor. La capa 4 inicia, mantiene y termina estos circuitos virtuales ademas de usar segmentos como protocolo de unidades de datos (PDUs). Los segmentos son definidos como conjuntos de datos que incluyen control de información y son enviados entre las capas 4 de los endpoints. 
 
 ## *Ejemplo que me ayudó a entenderlo*
 
