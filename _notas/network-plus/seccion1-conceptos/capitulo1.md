@@ -4,7 +4,7 @@ categoria: network-plus
 subgrupo: "Sección I - Conceptos de redes"
 orden: 1
 estado: en-curso
-actualizado: 2026-11-06
+actualizado: 2026-11-12
 tags: [redes, fundamentos, network-plus]
 ---
 
@@ -87,8 +87,15 @@ Cada frame enviado dentro de los cables contienen la dirección MAC y solo esos 
 
 Podemos decir que la capa 2 ofrece una transmisión confiable de datos entre la red de enlace físico y permite diferentes especificaciones que proveen diferentes redes y características de protocolos. Esto incluye direccionamiento físico, diferentes topologías de redes, error de notificaciones, secuencias de frames y un flujo de control de frames.
 
-La diferencia principal es que la capa 2 maneja la dirección física y la capa 3 es el manejo de dirección lógico. El direccionamiento físico es generalmente en la forma de MAC (grabado en una NIC [Network Interface Card] u otro tipo de interfaces). 
+La diferencia principal es que la capa 2 maneja la dirección física y la capa 3 es el manejo de dirección lógico. El direccionamiento físico es generalmente en la forma de MAC (grabado en una NIC [Network Interface Card] u otro tipo de interfaces). La MAC cuenta con 48 bits de información divididos en 6 grupos de 2 hexadecimales, esto termina siendo la dirección física única dentro de la red y aparece dentro del intercambio de paquetes. En caso contrario, los paquetes e enviarán dentro de los dispositivos del segmento.
 
+### Capa 1 - Física
+Es la más baja del modelo OSI y representa la parte física en la que interactúan los dispositivos de la red. Se comunica con la capa 2 a través de la subcapa de la MAC en dónde enía pulsos de 0s y 1s. Incluyen los siguientes tipos de protocolos dependiendo de la red:
+- LAN: Ethernet, IEEE 802.3, 100BaseT, Token Ring/IEEE 802.5, and FDDI
+    - Ethernet interactúa con las capas 1 y 2.
+- WAN: EIA/TIA-232, EIA/TIA-449, V.35, and EIA-530
+
+Define los procedimientos del transporte físico al igual que sus medidas y regulación. También activa, mantiene y desactiva enlaces físicos entre redes LAN/WAN.
 
 ## *Ejemplo que me ayudó a entenderlo*
 
