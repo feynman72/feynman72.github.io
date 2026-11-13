@@ -140,6 +140,7 @@ Se basa en dos protocolos:
 | Source Port Number | Destination Port Number |
 | Length | Checksum |
 | Data |
+
 ## *Ejemplo que me ayudó a entenderlo*
 
 ## *Referencias*
