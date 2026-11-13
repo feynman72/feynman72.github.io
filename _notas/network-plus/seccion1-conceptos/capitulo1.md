@@ -4,7 +4,7 @@ categoria: network-plus
 subgrupo: "Sección I - Conceptos de redes"
 orden: 1
 estado: en-curso
-actualizado: 2026-11-12
+actualizado: 2026-11-13
 tags: [redes, fundamentos, network-plus]
 ---
 
@@ -95,7 +95,46 @@ Es la más baja del modelo OSI y representa la parte física en la que interact�
     - Ethernet interactúa con las capas 1 y 2.
 - *WAN:* EIA/TIA-232, EIA/TIA-449, V.35, and EIA-530
 
-Define los procedimientos del transporte físico al igual que sus medidas y regulación. También activa, mantiene y desactiva enlaces físicos entre redes LAN/WAN.
+Define los procedimientos físicos de transporte, eléctricos y mecánicos, como modulación de voltaje o codificación. También activa, mantiene y desactiva enlaces físicos entre redes LAN/WAN.
+
+### Encapsulación
+Se conoce al proceso de pasar datos dentro del modelo (desde la cap 7 a la 1). Cuando la capa superior envía información hacia "abajo" añade cierta información antes de ser pasada, repitiendo esto en cada capa, dando un conjunto de datos más grande que el anterior hasta llegar a la capa inferior.
+
+También existe el proceso inverso, llamado descapsulamiento d+onde la información proviene de la capa inferior y cada que los datos son pasados "hacia arriba" va perdiendo información que anteriormente añadía la capa por lo que al llegar a la capa de Aplicación es un conjunto menor al inicial.
+
+Este encapsulamiento de la información, que añade datos como un header y/o trailer, permite que se mueva más fácilmente dentro de una network, incluyendo direccionamiento o revisión de errores.
+
+- *PDU (Protocol Data Unit)*: Es la unidad mínima fundamental de cada capa para comunicarse entre ellas. De la capa 1 a la 4 tiene diferentes PDUs: 
+
+| **Layer** | **Tipo de PDU** |
+| *Capa Física* | `Bits` |
+| *Capa de Datos* | `Frames` |
+| *Capa de Transporte* | `Datagramas` |
+| *Capa de Red* | `Segmentos` |
+
+## *Protocolo TCP/IP*
+El modelo OSI funciona bien como referencia pero para asegurarnos de una propia comunicaión entre dispositivos actualmente se usa la adaptación al protocolo TCP/IP.
+
+La documentación indica que en la adaptación a TCP/IP las capas 6 y 5 (Presentación y Sesión) se fusionan con la capa 7 (Aplicación) y la capa 3 cambia de nombre a Internet.
+
+| **Modelo OSI** | **TCP/IP** |
+| *Aplicación* | --- |
+| *Presentación* | *Aplicación* |
+| *Sesión* | --- |
+| *Transporte* | *Transporte* |
+| *Red* | *Internet* |
+| *Datos* | *Datos* |
+| *Capa Física* | *Capa Física* |
+
+### TCP/IP Capa 5 - Aplicación
+Cubre las funciones de las capas 7, 6 y 5 del modelo OSI por lo que abarca gran cantidad de protocolos como el HTTP, POP3, SMTP, FTP, DNS, DHCP, etc.
+
+### TCP/IP Capa 4 - Transporte
+Se basa en dos protocolos:
+- TCP (Transmission Control Protocol): Se orienta en la conexión, por lo que las rutas de los datos es confiable y estable ya que se encuentra sincronizada entre los endpoints antes de enviar datos. Ejemplo: FTP (File Transfer Protocol)
+- UDOP (User Datagram Protocol): No se orienta en rutas confiables y tampoco se centra en la conexión. A diferencia del TCP, no revisa que los segmentos llegen a su destino ni que al hacerlo estén correctos por lo que la correción de errores ocurre en la capa de Aplicación. En cambio el UDP tiene una menor sobrecarga que el TCP ya que en general es pequeño en comparación. Ejemplo: TFTP (Trivial Transfer Protocol)
+
+
 
 ## *Ejemplo que me ayudó a entenderlo*
 
