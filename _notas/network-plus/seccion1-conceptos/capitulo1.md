@@ -136,10 +136,9 @@ Se basa en dos protocolos:
 - *TCP (Transmission Control Protocol):* Se orienta en la conexión, por lo que las rutas de los datos es confiable y estable ya que se encuentra sincronizada entre los endpoints antes de enviar datos. Ejemplo: FTP (File Transfer Protocol)
 - *UDP (User Datagram Protocol):* No se orienta en rutas confiables y tampoco se centra en la conexión. A diferencia del TCP, no revisa que los segmentos llegen a su destino ni que al hacerlo estén correctos por lo que la correción de errores ocurre en la capa de Aplicación. En cambio el UDP tiene una menor sobrecarga que el TCP ya que en general es pequeño en comparación. Ejemplo: TFTP (Trivial Transfer Protocol)
 
-- Segmentos UDP:
 | Source Port Number | Destination Port Number |
 | Length | Checksum |
-| Data | |
+| Data | 
 
 ## *Ejemplo que me ayudó a entenderlo*
 
