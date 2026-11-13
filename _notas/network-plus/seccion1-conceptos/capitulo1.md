@@ -139,7 +139,7 @@ Se basa en dos protocolos:
 - Segmentos UDP:
 | Source Port Number | Destination Port Number |
 | Length | Checksum |
-| Data |
+| Data | |
 
 ## *Ejemplo que me ayudó a entenderlo*
 
