@@ -73,15 +73,15 @@ La capa 4 envía datagramas (paquetes), los cuales son conjutos de datos definid
 Podemos decir que el datagrama es la unidad de datos y un paquete es lo que físicamente se envía en la network. SI no ocurre la fragmentación/división, un datagrama es un solo paquete.
 
 - 
-    - Routed protocols: Son los encargados de las reglas y de los procesos de encapsulamiento de los paquetes de datos.
-    - Routing protocols: Encuentran rutas disponibles en la red que se encuentra además de construir y tomar decisiones de routeo.
+    - *Routed protocols:* Son los encargados de las reglas y de los procesos de encapsulamiento de los paquetes de datos.
+    - *Routing protocols:* Encuentran rutas disponibles en la red que se encuentra además de construir y tomar decisiones de routeo.
 
 ### Capa 2 - Data Link:
 Selecciona el formato de los datos que se mueven a través de los red física y encapsulan de acuerdo al tipo de media.
 
 Un frame (unidad de datos de la capa 2) que representa la organización de datos en una forma específica para que ambas partes puedan entender esto mismo. Entonces en la capa 2 escoge el tipo de estructura basado en el link de uso. La capa 3 tiene dos subcapas/subsecciones:
-- Logical Link Control (LLC): Interactúa con la capa 3 mientras esta capa usa múltiples protocolos en enlaces físicos permitiendo ser marcados en el apartado LLC.
-- Media Access Control (MAC): Se comunica con la capa 1 y específica la dirección MAC para identificar un dispositivo. 
+- *Logical Link Control (LLC):* Interactúa con la capa 3 mientras esta capa usa múltiples protocolos en enlaces físicos permitiendo ser marcados en el apartado LLC.
+- *Media Access Control (MAC):* Se comunica con la capa 1 y específica la dirección MAC para identificar un dispositivo. 
 
 Cada frame enviado dentro de los cables contienen la dirección MAC y solo esos dispositivos con esa MAC pueden interactuar esas mismas. El origen de esta dirección está incluida en la estructura.
 
@@ -91,9 +91,9 @@ La diferencia principal es que la capa 2 maneja la dirección física y la capa 
 
 ### Capa 1 - Física
 Es la más baja del modelo OSI y representa la parte física en la que interactúan los dispositivos de la red. Se comunica con la capa 2 a través de la subcapa de la MAC en dónde enía pulsos de 0s y 1s. Incluyen los siguientes tipos de protocolos dependiendo de la red:
-- LAN: Ethernet, IEEE 802.3, 100BaseT, Token Ring/IEEE 802.5, and FDDI
+- *LAN:* Ethernet, IEEE 802.3, 100BaseT, Token Ring/IEEE 802.5, and FDDI
     - Ethernet interactúa con las capas 1 y 2.
-- WAN: EIA/TIA-232, EIA/TIA-449, V.35, and EIA-530
+- *WAN:* EIA/TIA-232, EIA/TIA-449, V.35, and EIA-530
 
 Define los procedimientos del transporte físico al igual que sus medidas y regulación. También activa, mantiene y desactiva enlaces físicos entre redes LAN/WAN.
 
