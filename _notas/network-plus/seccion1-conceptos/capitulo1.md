@@ -136,9 +136,39 @@ Se basa en dos protocolos:
 - *TCP (Transmission Control Protocol):* Se orienta en la conexión, por lo que las rutas de los datos es confiable y estable ya que se encuentra sincronizada entre los endpoints antes de enviar datos. Ejemplo: FTP (File Transfer Protocol)
 - *UDP (User Datagram Protocol):* No se orienta en rutas confiables y tampoco se centra en la conexión. A diferencia del TCP, no revisa que los segmentos llegen a su destino ni que al hacerlo estén correctos por lo que la correción de errores ocurre en la capa de Aplicación. En cambio el UDP tiene una menor sobrecarga que el TCP ya que en general es pequeño en comparación. Ejemplo: TFTP (Trivial Transfer Protocol)
 
-| Source Port Number | Destination Port Number |
-| Length | Checksum |
-| Data | 
+
+| Field | Tamaño en Bits | Descripción |
+| Source Port Number | 16 | Identifica la aplicación del remitente |
+| Destination Port Number | 16 | Identifica la aplicación del destinatario |
+| Length | 16 | El tamamño del header y los datos |
+| Checksum | 16 | La checksum del header y los datos, verificando la integridad del segmento|
+| Data | Variable | Datos de aplicación |
+
+| Field | Tamaño en Bits | Descripción |
+| Source Port Number | 16 | Identifica la aplicación del remitente |
+| Destination Port Number | 16 | Identifica la palicación del destinatario |
+| Sequence Number | 32 | Verifica el orden correcto delos segmentos recibidos (remitente) |
+| Acknowledgement Number | 32 | Verifica el orden correcto de los segmentos esperados en el receptor (destinatario) |
+| Header Length | 4 | Tamaño del header |
+| Reserved | 6 | Field sin usar |
+| Code Bits | 6 | Indica el tipo del segmento |
+| Windows Size | 16 | Enumera la cantidad de bits recibidos antes de enviar un Acknowledgement |
+| Checksum | 16 | Se usa para verificar la integridad del segmento |
+| Urgent | 16 | Indica el final de la recepción de datos urgentes |
+| Option | 0 a 32 | Define el tamaño máximo del segmento en TCP |
+| Data | Variable | Datos de aplicación |
+
+- El header del TCP es mayor al del UDP por los fields extras para asegurarse de la confiabilidad de la conexión.
+
+### TCP/IP Capa 3 - Internet
+Incluye los siguientes protocolos:
+- *Internet Protocol (IP):* No prioriza la conexión pero ofrece la mejor transmisión de paquetes. Se apoya en la capa de Transporte con el TCP para asegurar conexión confiable. La dirección de IP se asigna a cada dispositico o interfaz de red y usa dos formatos IPv4 y IPv6.
+- *Internet Control Message Protocol (ICMP):* Envía mensajes y reportes de error en la network. La aplicación más común que se apoya en el ICMP es el ping, que envía un ICMP echo de solicitud hacia el destino y espera un ICMP echo de respuesta para probar que existe comunciación entre los endpoints o inlcuso si hay delays. 
+
+### TCP/IP Capa 1-2 - Acceso de Red
+Es la compresión de las capas 1-2 del modelo OSI (Enlace de datos y Capa Física).
+
+Uno de los protocolos usados comunmente es el ARP (Address Resolution Protocol) que solicita la MAC a un dispositivo con IP asignada y en el momento que se obtiene es el host destino de los frames enviados en esa direccióbn.
 
 ## *Ejemplo que me ayudó a entenderlo*
 
