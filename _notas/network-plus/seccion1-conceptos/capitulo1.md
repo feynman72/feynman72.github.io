@@ -170,6 +170,8 @@ Es la compresión de las capas 1-2 del modelo OSI (Enlace de datos y Capa Físic
 
 Uno de los protocolos usados comunmente es el ARP (Address Resolution Protocol) que solicita la MAC a un dispositivo con IP asignada y en el momento que se obtiene es el host destino de los frames enviados en esa dirección.
 
+
+
 ## *Ejemplo que me ayudó a entenderlo*
 
 ## *Referencias*
