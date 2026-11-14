@@ -137,14 +137,14 @@ Se basa en dos protocolos:
 - *UDP (User Datagram Protocol):* No se orienta en rutas confiables y tampoco se centra en la conexión. A diferencia del TCP, no revisa que los segmentos llegen a su destino ni que al hacerlo estén correctos por lo que la correción de errores ocurre en la capa de Aplicación. En cambio el UDP tiene una menor sobrecarga que el TCP ya que en general es pequeño en comparación. Ejemplo: TFTP (Trivial Transfer Protocol)
 
 
-| Field | Tamaño en Bits | Descripción |
+| **Field** | **Tamaño en Bits** | **Descripción** |
 | Source Port Number | 16 | Identifica la aplicación del remitente |
 | Destination Port Number | 16 | Identifica la aplicación del destinatario |
 | Length | 16 | El tamamño del header y los datos |
 | Checksum | 16 | La checksum del header y los datos, verificando la integridad del segmento|
 | Data | Variable | Datos de aplicación |
 
-| Field | Tamaño en Bits | Descripción |
+| **Field** | **Tamaño en Bits** | **Descripción** |
 | Source Port Number | 16 | Identifica la aplicación del remitente |
 | Destination Port Number | 16 | Identifica la palicación del destinatario |
 | Sequence Number | 32 | Verifica el orden correcto delos segmentos recibidos (remitente) |
