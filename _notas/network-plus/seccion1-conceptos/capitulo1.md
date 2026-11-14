@@ -168,7 +168,7 @@ Incluye los siguientes protocolos:
 ### TCP/IP Capa 1-2 - Acceso de Red
 Es la compresión de las capas 1-2 del modelo OSI (Enlace de datos y Capa Física).
 
-Uno de los protocolos usados comunmente es el ARP (Address Resolution Protocol) que solicita la MAC a un dispositivo con IP asignada y en el momento que se obtiene es el host destino de los frames enviados en esa direccióbn.
+Uno de los protocolos usados comunmente es el ARP (Address Resolution Protocol) que solicita la MAC a un dispositivo con IP asignada y en el momento que se obtiene es el host destino de los frames enviados en esa dirección.
 
 ## *Ejemplo que me ayudó a entenderlo*
 
