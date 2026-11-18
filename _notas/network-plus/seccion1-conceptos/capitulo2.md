@@ -4,7 +4,7 @@ categoria: network-plus
 subgrupo: "Sección I - Conceptos de redes"
 orden: 1
 estado: en-curso
-actualizado: 2026-11-17
+actualizado: 2026-11-18
 tags: [redes, fundamentos, network-plus]
 ---
 
@@ -78,7 +78,10 @@ Si recibe un frame de un emisor desconocido y la tabla de MACs se encuentra llen
 Sus PDUs son los paquetes. Cuando la información viene de la capa 4 de network añade el header de la capa 3 que contiene información importante cómo la dirección IP tanto del emisor cómo receptor. Mientras baja de capa hasta convertirse en 0s y 1s.
 
 #### *Direcciones de capa de red*
+A pesar de que cada dispositivo cuenta con una MAC esto no significa que pueda conocerse al dispositivo en específico o la red en la que está, por lo que un router no puede hacer la ruta más efectiva para el mismo. En esto se usa el direccionamiento de la capa 3, ya que son direcciones lógicas asginadas cuando un dispositivo se coloca en la red o cuando es movido.
 
+Esto cuenta con una jerarquía de dos partes: 
+- 
 
 | **Capas OSI** | **Función** |
 | *Capa 7* | `Aplicación` |
