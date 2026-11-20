@@ -81,7 +81,8 @@ Sus PDUs son los paquetes. Cuando la información viene de la capa 4 de network 
 A pesar de que cada dispositivo cuenta con una MAC esto no significa que pueda conocerse al dispositivo en específico o la red en la que está, por lo que un router no puede hacer la ruta más efectiva para el mismo. En esto se usa el direccionamiento de la capa 3, ya que son direcciones lógicas asginadas cuando un dispositivo se coloca en la red o cuando es movido.
 
 Esto cuenta con una jerarquía de dos partes: 
-- 
+- Dirección de red
+- Dirección de host
 
 | **Capas OSI** | **Función** |
 | *Capa 7* | `Aplicación` |
